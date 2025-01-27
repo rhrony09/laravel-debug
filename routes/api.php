@@ -20,4 +20,4 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 
-Route::get('/debug', [ApiController::class, 'debug']);
+Route::post('/debug', [ApiController::class, 'debug']);
